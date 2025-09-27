@@ -15,7 +15,7 @@ app.use(express.static(__dirname));
 
 const server = app.listen(3000,()=>{
     console.log("server is live on port 3000");    
-); 
+}); 
 const io = socketIo(server);
 
 // server.listen(3000);
