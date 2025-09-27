@@ -2,7 +2,12 @@
 
 const userName = `AP-00${Math.floor(Math.random()*1000)}`;
 
-const socket = io('https://localhost:3000',{
+// const socket = io('https://localhost:3000',{
+//     auth:{
+//         userName:userName
+//     }
+// });
+const socket = io('https://glimpse-q34u.onrender.com',{
     auth:{
         userName:userName
     }
