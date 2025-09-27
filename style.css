@@ -1,0 +1,42 @@
+.videoDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.videoEl{
+    width: 800px;
+    height: 300px;
+    background-color: black;
+}
+
+.call-btn{
+    padding: 10px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    margin: 10px;
+}
+
+.btn-container{
+    margin-top: 10px;
+}
+
+.btn-answer{
+    padding: 10px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    margin: 10px;
+}
+
+
+
